@@ -40,6 +40,8 @@
     "@babel/preset-env": "^7.14.4",
     "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.13.0",
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@rollup/plugin-inject": "^5.0.3",
     "@testing-library/react-hooks": "^7.0.0",
     "@types/chai": "^4.2.18",
     "@types/humanize-duration": "^3.25.0",
@@ -55,6 +57,7 @@
     "@types/uuid": "^8.3.0",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "@typescript-eslint/parser": "^4.26.0",
+    "@vitejs/plugin-react-swc": "^3.0.0",
     "babel-loader": "^8.2.2",
     "babel-preset-minify": "^0.5.1",
     "chai": "^4.3.4",
@@ -62,6 +65,8 @@
     "eslint": "^7.27.0",
     "eslint-plugin-hooks": "^0.2.0",
     "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
     "ethereum-waffle": "^3.4.0",
     "file-loader": "^6.2.0",
     "fork-ts-checker-webpack-plugin": "^6.2.10",
@@ -74,15 +79,16 @@
     "source-map-loader": "^3.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5",
+    "util": "^0.12.5",
+    "vite": "^4.3.2",
     "webpack": "^5.75.0",
     "webpack-cli": "^4.7.0",
-    "webpack-dev-server": "^3.11.2",
-    "@vitejs/plugin-react-swc": "^3.0.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.3.4",
-    "vite": "^4.3.2"
+    "webpack-dev-server": "^3.11.2"
   },
   "resolutions": {
     "ethers": "5.4.1"
+  },
+  "#browser": {
+    "zlib": false
   }
 }
