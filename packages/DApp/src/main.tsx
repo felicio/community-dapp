@@ -11,7 +11,12 @@ import { config } from './config'
 render(
   <React.StrictMode>
     <WakuProvider>
-      <DAppProvider config={config.daapConfig}>
+      <DAppProvider
+        config={
+          // config.daapConfig
+          {}
+        }
+      >
         <CommunitiesProvider>
           {/* <WakuFeatureProvider> */}
           <App />
