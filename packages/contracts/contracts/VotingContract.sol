@@ -6,7 +6,7 @@ import '@openzeppelin/contracts/utils/cryptography/ECDSA.sol';
 import '@openzeppelin/contracts/utils/math/SafeMath.sol';
 import './Directory.sol';
 
-// Uncomment this line to use console.log
+// Note: Uncomment this line to use console.log
 // import 'hardhat/console.sol';
 
 contract VotingContract {
