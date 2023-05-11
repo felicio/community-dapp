@@ -5,5 +5,16 @@
 			"main": false,
 			"master": false
 		}
-	}
+	},
+	"github": {
+		"silent": false,
+		"autoJobCancelation": true
+	},
+	"ignoreCommand": "git diff --quiet HEAD^ HEAD vercel.json ./package.json ./packages/contracts/package.json ./packages/contracts/contracts ./packages/DApp",
+	"rewrites": [
+		{
+			"source": "/(.*)",
+			"destination": "/index.html"
+		}
+	]
 }
