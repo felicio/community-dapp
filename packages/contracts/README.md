@@ -1,7 +1,6 @@
 # status-community-dapp/contracts 
 Community directory curator contracts
 
-
 ## Mock Contract
 
 Mock Contract is a mock of voting smart contract for community curation.
